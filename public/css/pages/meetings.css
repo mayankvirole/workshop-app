@@ -1,0 +1,28 @@
+.meeting-main{
+	margin-left: 3.5rem;
+}
+.meeting-panes{
+	display: flex;
+	flex-direction: row;
+	list-style-type: none
+}
+.meeting-panes > li{
+	padding: 1rem;
+}
+
+.active-pane{
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+.active-pane > a, .active-pane >a ::after{
+	font-weight: bolder;
+	text-decoration : none;
+	color: rgb(153, 152, 152);
+}
+
+.inactive-pane > a , .inactive-pane >a ::after{
+	color: #64AEFF;
+	font-weight: bolder;
+	text-decoration: none;
+}

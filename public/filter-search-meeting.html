@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Meetings</title>
+	<link rel="stylesheet" href="./external/normalize.css">
+	<link rel="stylesheet" href="./css/pages/index.css">
+	<link rel="stylesheet" href="./css/pages/meetings.css">
+	<link rel="stylesheet" href="./css/pages/filter-search-meeting.css">
+</head>
+
+<body>
+	<nav>
+		<ul class="navigation">
+			<li><a href="/public/index.html">Calendar</a></li>
+			<li class="active-page"><a href="/public/filter-search-meeting.html">Meetings</a></li>
+			<li><a href="/public/teams.html">Teams</a></li>
+		</ul>
+
+		<div class="nav-right">Hello <span id="email">mayankvirole@gmail.com !</span>
+			<span>Logout</span>
+		</div>
+	</nav>
+
+	<h1>Meetings</h1>
+	<hr>
+
+	<div class="meeting-main">
+		<ul class="meeting-panes">
+			<li class="active-pane"><a href="/public/filter-search-meeting.html">Filter / Search Meeting</a></li>
+			<li class="inactive-pane"><a href="/public/add-meeting.html">Add a Meeting</a></li>
+		</ul>
+	</div>
+	<hr>
+	<div class="search">
+		<h2>Search for meetings</h2>
+		<hr>
+		<div class="search-input">
+			<div class="date-input">
+				<label for="date">DATE</label>
+				<select name="" id="date">
+					<option value="#" selected>TODAY</option>
+					<option value="">ALL</option>
+					<option value="">PAST</option>
+					<option value="">UPCOMING</option>
+				</select>
+			</div>
+			<div class="search-text">
+				<label for="search-text">Search for</label>
+				<textarea name="" id="search-text" cols="60" rows="5"></textarea>
+			</div>
+			<button>Search</button>
+		</div>
+	</div>
+
+	<div class="results">
+		<h2>Meetings matching search results</h2>
+		<hr>
+		<div class="result-main">
+			<div class="result-card">
+				<span>
+				<h3>12 September 2020 </h3> <h4>08:50 - 11:44</h4>
+				</span>
+				<h4>Project Kickoff</h3>
+				<button>Excuse yourself</button>
+				<hr>
+				<h4>Attendees: example@yahoo.com, 666garlet@gmail.com</h4>
+				<select name="" id="member">
+					<option value="#" selected>Select Member</option>
+					<option value="">example1@email.com</option>
+					<option value="">example12@email.com</option>
+					<option value="">example13@email.com</option>
+				</select>
+				<button>Add</button>
+			</div>
+			<div class="result-card">
+				<span>
+				<h3>12 September 2020 </h3> <h4>08:50 - 11:44</h4>
+				</span>
+				<h4>Project Kickoff</h3>
+				<button>Excuse yourself</button>
+				<hr>
+				<h4>Attendees: example@yahoo.com, 666garlet@gmail.com</h4>
+				<select name="" id="member">
+					<option value="#" selected>Select Member</option>
+					<option value="">example1@email.com</option>
+					<option value="">example12@email.com</option>
+					<option value="">example13@email.com</option>
+				</select>
+				<button>Add</button>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
