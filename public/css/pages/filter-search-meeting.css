@@ -7,6 +7,7 @@
 	background-color: #73C7D4;
 	border: 1px solid white;
 	border-radius: 4px;
+	overflow: auto;
 }
 
 .search > h2{
@@ -21,11 +22,34 @@
 .date-input{
 	display: flex;
   flex-direction: column;
+	padding-top: 1rem;
+}
+
+.date-input > label{
+	padding-bottom: 0.5rem;
+	font-weight: bolder;
+	color: rgb(68, 68, 68);
+}
+
+.date-input > select{
+	padding: 0.5rem;
 }
 
 .search-text{
 	display: flex;
   flex-direction: column;
+	padding-top: 1rem;
+}
+
+.search-text > label{
+	padding-bottom: 0.5rem;
+	font-weight: bolder;
+	color: rgb(68, 68, 68);
+}
+
+.search-text > textarea {
+	padding: 0.5rem;
+	resize: vertical;
 }
 
 .results{
@@ -35,9 +59,25 @@
 	margin-right: 6rem
 }
 
-/* .result-main{
-	margin-left: ;
-} */
+.result-main{
+	display: flex;
+	flex-direction: column;
+	overflow: auto;
+}
+
+.results > hr{
+	margin: 0;
+}
+
+.src-btn{
+	background-color: #1e7c8b;
+	color: white;
+	font-weight: bolder;
+	margin-top: 1rem;
+	padding: 0.6rem;
+	border: none;
+	border-radius: 4px;
+}
 
 .result-card{
 	margin-top: 1rem;
@@ -45,5 +85,49 @@
 	border: 1px solid grey;
 	padding: 1rem;
 	border-radius: 4px;
-	width: 100%;
+}
+
+.result-card > h4{
+	color: grey;
+	margin-top: 1rem;
+}
+
+.result-card > h4 > span{
+	color: black;
+}
+
+.result-card > hr {
+	margin : 0;
+}
+
+.result-date{
+	display: flex;
+	flex-direction: row;
+}
+
+.result-date > h4 {
+	margin-left: 1rem;
+	color: grey;
+}
+
+.ex-btn{
+border: none;
+background-color: red;
+padding: 0.5rem 1rem ;
+color: white;
+border-radius: 4px;
+font-weight: bolder;
+margin-bottom: 1rem;
+}
+
+.add-btn{
+background-color: #1992A5;
+border: none;
+border-radius: 4px;
+color: white;
+padding: 0.5rem 1rem;
+}
+
+#member{
+	padding: 0.5rem;
 }

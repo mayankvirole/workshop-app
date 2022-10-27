@@ -1,0 +1,88 @@
+.add-main{
+	display: flex;
+	flex-direction: column;
+	background-color: #63bccb;
+	margin-left: 6rem;
+	margin-right: 4.5rem;
+	padding: 0.5rem 1.5rem;
+}
+
+.add-main > h2{
+	color: white;
+}
+
+.add-main > hr{
+	height: 2px;
+	border: none;
+	margin: 0;
+	background-color: #4d929e;
+}
+
+.add-main > label {
+	margin-top: 1rem;
+	font-weight: bolder;
+}
+
+.add-main > textarea {
+	margin-top: 0.8rem;
+	resize: vertical;
+	border: none;
+	border-radius: 4px;
+	padding: 0.5rem 1rem;
+}
+
+.add-main > span {
+	margin-top: 0.2rem;
+	color: white;
+	font-weight: 600;
+}
+
+.date{
+	display: flex;
+	flex-direction: column;
+	margin-top: 1rem;
+}
+
+.date > label{
+	font-weight: bolder;
+	margin-bottom: 0.7rem;
+}
+
+.date > input{
+	padding: 0.5rem;
+	border-radius: 4px;
+	border: none;
+}
+
+.time{
+margin-top: 1rem;
+}
+
+.time > label{
+	font-weight: bolder;
+}
+
+.time-input > select {
+margin-top: 0.7rem;
+padding: 0.5rem;
+border-radius: 4px;
+border: none;
+} 
+
+#emails{
+	resize: none;
+	border: none;
+	border-radius: 4px;
+	padding: 0.5rem 1rem;
+}
+
+.btn-add{
+	width: fit-content;
+	background-color: #1a8ca2;
+	border: none;
+	border-radius: 4px;
+	padding: 0.5rem 1rem;
+	color: white;
+	font-weight: bolder;
+	margin-top: 1rem;
+}
